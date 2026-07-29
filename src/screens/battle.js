@@ -206,3 +206,6 @@ export async function renderBattle(container, app) {
 
 // Pulse glow CSS effect
 
+
+// Boss Battle XP bounty badge
+
