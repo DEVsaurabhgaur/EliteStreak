@@ -97,3 +97,6 @@ export { RANKS, XP_REWARDS };
 
 // Remaining XP calculator
 
+
+// Double XP weekend bonus
+
