@@ -77,3 +77,6 @@ export function renderHeatmap(container, dayLogs, habits) {
   html += '</div>';
   container.innerHTML = html;
 }
+
+// Month label alignment
+
