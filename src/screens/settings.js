@@ -339,3 +339,6 @@ export async function renderSettings(container, app) {
 
   render();
 }
+
+// Dynamic theme selector
+
