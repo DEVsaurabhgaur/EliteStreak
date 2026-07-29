@@ -88,3 +88,6 @@ export function calculateXP(action, streakMultiplier = 1) {
 }
 
 export { RANKS, XP_REWARDS };
+
+// Level bonus XP scalar
+
