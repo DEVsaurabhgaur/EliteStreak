@@ -237,3 +237,6 @@ function renderHabitStreaksChart(canvas, habitStreaks) {
 
 // Week-over-week performance color delta
 
+
+// Chart.js custom hover styling
+
