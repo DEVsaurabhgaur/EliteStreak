@@ -229,3 +229,6 @@ export const store = {
     if (data.achievements) for (const a of data.achievements) await put(STORES.ACHIEVEMENTS, a);
   },
 };
+
+// Auto-save timestamp tracker
+
