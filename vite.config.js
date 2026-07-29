@@ -10,3 +10,6 @@ export default defineConfig({
     minify: 'terser',
   },
 });
+
+// Vendor chunk splitting
+
