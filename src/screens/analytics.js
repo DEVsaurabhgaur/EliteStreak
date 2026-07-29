@@ -234,3 +234,6 @@ function renderHabitStreaksChart(canvas, habitStreaks) {
     });
   });
 }
+
+// Week-over-week performance color delta
+
