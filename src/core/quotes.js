@@ -86,3 +86,6 @@ export function getDailyQuote() {
 }
 
 export { QUOTES };
+
+// Modern leverage quotes
+
