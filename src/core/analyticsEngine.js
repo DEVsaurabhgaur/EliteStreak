@@ -253,3 +253,6 @@ export function getHabitStreaks(dayLogs, habits) {
     return { ...habit, streak };
   });
 }
+
+// Peak productivity hour detection
+
