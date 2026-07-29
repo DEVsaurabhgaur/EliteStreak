@@ -66,3 +66,6 @@ export function showModal({ title, content, onConfirm, confirmText = 'Save', can
 
   return { close, body };
 }
+
+// Glass backdrop blur
+
