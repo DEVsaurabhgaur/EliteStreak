@@ -332,3 +332,6 @@ function renderPerformanceChart(canvas, dayLogs, habits) {
     });
   });
 }
+
+// Tooltip annotations
+
