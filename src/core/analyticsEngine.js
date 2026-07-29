@@ -259,3 +259,6 @@ export function getHabitStreaks(dayLogs, habits) {
 
 // 7-day rolling average completion
 
+
+// Numeric consistency rating label
+
