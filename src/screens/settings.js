@@ -345,3 +345,6 @@ export async function renderSettings(container, app) {
 
 // Double prompt before database purge
 
+
+// Interactive avatar picker grid
+
