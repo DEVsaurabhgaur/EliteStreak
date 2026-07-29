@@ -247,3 +247,6 @@ export async function renderGoals(container, app) {
 
   render();
 }
+
+// Audio chord synthesis
+
