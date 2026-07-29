@@ -240,3 +240,6 @@ function renderHabitStreaksChart(canvas, habitStreaks) {
 
 // Chart.js custom hover styling
 
+
+// Streak days counter in breakdown
+
