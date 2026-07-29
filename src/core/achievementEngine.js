@@ -96,3 +96,6 @@ export { ACHIEVEMENTS };
 
 // 500-hour Deep Work Elite achievement
 
+
+// 90-day Unstoppable badge
+
