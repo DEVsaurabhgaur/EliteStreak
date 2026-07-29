@@ -235,3 +235,6 @@ export const store = {
 
 // Database error warning log
 
+
+// JSON schema validation
+
