@@ -203,3 +203,6 @@ export async function renderBattle(container, app) {
 
 // Level rank progress readout
 
+
+// Pulse glow CSS effect
+
