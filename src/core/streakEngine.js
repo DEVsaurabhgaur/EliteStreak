@@ -127,3 +127,6 @@ export function isStreakInDanger(dayLogs, habits) {
 }
 
 export { MULTIPLIER_TABLE };
+
+// Streak shield cost calculation
+
