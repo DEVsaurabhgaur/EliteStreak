@@ -99,3 +99,6 @@ export { ACHIEVEMENTS };
 
 // 90-day Unstoppable badge
 
+
+// 365-day Legendary Year badge
+
