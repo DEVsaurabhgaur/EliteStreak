@@ -177,3 +177,6 @@ app.init();
 
 // Keyboard shortcuts initialization
 
+
+// Router hash telemetry
+
