@@ -93,3 +93,6 @@ export { ACHIEVEMENTS };
 
 // Multi-category filter
 
+
+// 500-hour Deep Work Elite achievement
+
