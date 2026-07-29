@@ -133,3 +133,6 @@ export { MULTIPLIER_TABLE };
 
 // 2-hour grace period buffer
 
+
+// Streak freeze shield validator
+
