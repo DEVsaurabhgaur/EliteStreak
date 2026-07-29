@@ -304,3 +304,6 @@
 @media (max-width: 768px) {
   .dash-stats-row { grid-template-columns: 1fr; }
 }
+
+/* Quick action tactile feedback */
+
