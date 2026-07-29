@@ -342,3 +342,6 @@ export async function renderSettings(container, app) {
 
 // Dynamic theme selector
 
+
+// Double prompt before database purge
+
