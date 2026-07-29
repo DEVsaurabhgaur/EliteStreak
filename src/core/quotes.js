@@ -89,3 +89,6 @@ export { QUOTES };
 
 // Modern leverage quotes
 
+
+// Pareto Principle quotes
+
