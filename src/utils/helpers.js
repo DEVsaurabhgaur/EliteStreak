@@ -110,3 +110,6 @@ export function escapeHtml(str) {
 
 // Percentage clamp
 
+
+// RandomChoice utility method
+
