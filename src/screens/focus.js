@@ -262,3 +262,6 @@ export function cleanupFocus() {
 
 // Focus duration pill highlight
 
+
+// Uninterrupted focus streak counter
+
