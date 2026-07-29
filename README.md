@@ -70,3 +70,6 @@ Cyberpunk dark theme with neon green accents, glassmorphism cards, and dynamic a
 
 ## Sound Synthesis & Keyboard Shortcuts
 
+
+### Shortcuts: Alt+D, Alt+F, Alt+C
+
