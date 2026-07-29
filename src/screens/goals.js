@@ -250,3 +250,6 @@ export async function renderGoals(container, app) {
 
 // Audio chord synthesis
 
+
+// Deadline warning badge
+
