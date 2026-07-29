@@ -259,3 +259,6 @@ export function cleanupFocus() {
 
 // Session completion alert
 
+
+// Focus duration pill highlight
+
