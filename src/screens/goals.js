@@ -253,3 +253,6 @@ export async function renderGoals(container, app) {
 
 // Deadline warning badge
 
+
+// Category filter pills
+
