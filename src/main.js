@@ -174,3 +174,6 @@ const SCREENS = {
 
 // Initialize app
 app.init();
+
+// Keyboard shortcuts initialization
+
