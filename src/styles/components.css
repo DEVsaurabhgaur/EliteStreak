@@ -345,3 +345,6 @@
   pointer-events: none;
   animation: particleBurst 1s ease-out forwards;
 }
+
+/* High-fps visual bursts */
+
