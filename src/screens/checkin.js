@@ -235,3 +235,6 @@ export async function renderCheckIn(container, app) {
 
 // Non-negotiables laser click
 
+
+// Resistance scale labels
+
