@@ -238,3 +238,6 @@ export async function renderCheckIn(container, app) {
 
 // Resistance scale labels
 
+
+// MIT completion bar on debrief
+
