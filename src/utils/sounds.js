@@ -5,3 +5,6 @@
 
 // Global audio volume scalar
 
+
+// Global mute toggle
+
