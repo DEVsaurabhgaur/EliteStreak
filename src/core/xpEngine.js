@@ -91,3 +91,6 @@ export { RANKS, XP_REWARDS };
 
 // Level bonus XP scalar
 
+
+// Cap maximum streak multiplier scalar
+
