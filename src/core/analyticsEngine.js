@@ -256,3 +256,6 @@ export function getHabitStreaks(dayLogs, habits) {
 
 // Peak productivity hour detection
 
+
+// 7-day rolling average completion
+
