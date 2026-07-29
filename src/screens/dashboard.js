@@ -335,3 +335,6 @@ function renderPerformanceChart(canvas, dayLogs, habits) {
 
 // Tooltip annotations
 
+
+// Quote author credit citation
+
