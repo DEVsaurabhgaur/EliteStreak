@@ -232,3 +232,6 @@ export async function renderCheckIn(container, app) {
 
   render();
 }
+
+// Non-negotiables laser click
+
