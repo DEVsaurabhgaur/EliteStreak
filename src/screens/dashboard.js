@@ -338,3 +338,6 @@ function renderPerformanceChart(canvas, dayLogs, habits) {
 
 // Quote author credit citation
 
+
+// Quick action icon scaling
+
