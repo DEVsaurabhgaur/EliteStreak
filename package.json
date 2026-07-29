@@ -1,0 +1,18 @@
+{
+  "name": "elite-streak",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal Performance OS — Gamified streak & daily progress tracker",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.8"
+  }
+}

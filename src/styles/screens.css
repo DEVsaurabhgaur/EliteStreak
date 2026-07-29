@@ -1,0 +1,440 @@
+/* ============================================
+   Goals & Missions Styles
+   ============================================ */
+
+.goals-screen { max-width: var(--content-max-width); margin: 0 auto; }
+
+/* --- Mission Statement --- */
+.mission-banner {
+  background: linear-gradient(135deg, rgba(0, 255, 136, 0.08), rgba(124, 58, 237, 0.08));
+  border: var(--border-accent);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  margin-bottom: var(--space-8);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: fadeInUp 0.5s ease forwards;
+}
+.mission-banner::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0,255,136,0.03) 0%, transparent 60%);
+  animation: float 8s ease-in-out infinite;
+}
+.mission-banner h2 {
+  font-size: var(--fs-xl);
+  color: var(--neon-green);
+  margin-bottom: var(--space-3);
+  position: relative;
+}
+.mission-banner p {
+  color: var(--text-secondary);
+  font-size: var(--fs-base);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.mission-banner .edit-mission {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+}
+
+/* --- Goal Tabs --- */
+.goal-tabs {
+  display: flex;
+  gap: var(--space-2);
+  margin-bottom: var(--space-6);
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-1);
+  border: var(--border-subtle);
+}
+.goal-tab {
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-md);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: all var(--transition-base);
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+}
+.goal-tab:hover {
+  color: var(--text-primary);
+  background: var(--bg-elevated);
+}
+.goal-tab.active {
+  background: var(--neon-green);
+  color: var(--bg-primary);
+}
+
+/* --- Goal Card --- */
+.goal-card {
+  background: var(--bg-surface);
+  border: var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  transition: all var(--transition-base);
+  animation: fadeInUp 0.4s ease forwards;
+  opacity: 0;
+}
+.goal-card:hover {
+  border-color: rgba(255,255,255,0.1);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+.goal-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-4);
+}
+.goal-card-header h4 {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  font-weight: 600;
+}
+.goal-card-header .goal-icon {
+  font-size: 1.4rem;
+  margin-right: var(--space-3);
+}
+.goal-card .goal-description {
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  margin-bottom: var(--space-4);
+  line-height: 1.5;
+}
+.goal-card .goal-progress {
+  margin-bottom: var(--space-3);
+}
+.goal-card .goal-progress-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--space-2);
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+}
+.goal-card .goal-progress-text .progress-value {
+  font-family: var(--font-mono);
+  color: var(--neon-green);
+  font-weight: 600;
+}
+.goal-card .goal-meta {
+  display: flex;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+.goal-card .goal-deadline {
+  font-size: var(--fs-xs);
+  color: var(--text-tertiary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+/* --- Add Goal Button --- */
+.add-goal-card {
+  background: var(--bg-surface);
+  border: 2px dashed rgba(255,255,255,0.1);
+  border-radius: var(--radius-lg);
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  color: var(--text-tertiary);
+  min-height: 180px;
+}
+.add-goal-card:hover {
+  border-color: var(--neon-green);
+  color: var(--neon-green);
+  background: var(--neon-green-subtle);
+}
+.add-goal-card .add-icon {
+  font-size: 2rem;
+}
+
+/* --- Goal Form Modal --- */
+.goal-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+.goal-form .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.goal-form label {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+.goal-form .form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+/* ============================================
+   Battle Arena Styles
+   ============================================ */
+
+.battle-screen { max-width: var(--content-max-width); margin: 0 auto; }
+
+/* --- Character Profile --- */
+.character-profile {
+  background: linear-gradient(135deg, var(--bg-surface), var(--bg-elevated));
+  border: var(--border-accent);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: var(--space-8);
+  align-items: center;
+  margin-bottom: var(--space-8);
+  animation: fadeInUp 0.5s ease forwards;
+}
+.character-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(135deg, var(--neon-green), var(--electric-purple));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  box-shadow: var(--shadow-neon);
+  animation: glow 3s ease-in-out infinite;
+}
+.character-info h2 {
+  font-size: var(--fs-2xl);
+  margin-bottom: var(--space-1);
+}
+.character-info .character-title {
+  color: var(--xp-gold);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.character-stats-grid {
+  display: flex;
+  gap: var(--space-6);
+}
+.char-stat {
+  text-align: center;
+}
+.char-stat .char-stat-value {
+  font-family: var(--font-mono);
+  font-size: var(--fs-xl);
+  font-weight: 700;
+  color: var(--neon-green);
+}
+.char-stat .char-stat-label {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: var(--space-1);
+}
+.character-rank {
+  text-align: center;
+}
+.character-rank .rank-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: var(--space-2);
+}
+.character-rank .rank-name {
+  font-family: var(--font-display);
+  font-size: var(--fs-base);
+  font-weight: 700;
+  color: var(--xp-gold);
+}
+.character-rank .rank-level {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+  margin-top: var(--space-1);
+}
+
+/* --- Battle Sections Grid --- */
+.battle-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+  margin-bottom: var(--space-6);
+}
+
+/* --- Skill Tree --- */
+.skill-tree-card {
+  background: var(--bg-surface);
+  border: var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  animation: fadeInUp 0.5s ease 0.1s forwards;
+  opacity: 0;
+}
+.skill-tree-card h3 {
+  margin-bottom: var(--space-5);
+}
+.skill-node {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-elevated);
+  border: var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-3);
+  transition: all var(--transition-base);
+}
+.skill-node.locked {
+  opacity: 0.4;
+  filter: grayscale(1);
+}
+.skill-node.unlocked {
+  border-color: rgba(0, 255, 136, 0.3);
+  background: rgba(0, 255, 136, 0.05);
+}
+.skill-node .skill-icon {
+  font-size: 1.3rem;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-surface);
+  border-radius: var(--radius-sm);
+}
+.skill-node .skill-info h5 {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+}
+.skill-node .skill-info p {
+  font-size: var(--fs-xs);
+  color: var(--text-secondary);
+}
+.skill-node .skill-req {
+  margin-left: auto;
+  font-size: var(--fs-xs);
+  color: var(--text-tertiary);
+  font-family: var(--font-mono);
+}
+
+/* --- Achievements --- */
+.achievements-card {
+  background: var(--bg-surface);
+  border: var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  animation: fadeInUp 0.5s ease 0.15s forwards;
+  opacity: 0;
+}
+.achievements-card h3 {
+  margin-bottom: var(--space-5);
+}
+.achievement-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  gap: var(--space-3);
+}
+.achievement-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-3);
+  background: var(--bg-elevated);
+  border-radius: var(--radius-md);
+  border: var(--border-subtle);
+  cursor: pointer;
+  transition: all var(--transition-base);
+}
+.achievement-badge:hover {
+  transform: scale(1.05);
+  border-color: rgba(255, 215, 0, 0.3);
+}
+.achievement-badge.locked {
+  opacity: 0.3;
+  filter: grayscale(1);
+}
+.achievement-badge .badge-icon {
+  font-size: 1.5rem;
+}
+.achievement-badge .badge-name {
+  font-size: 0.5rem;
+  text-align: center;
+  color: var(--text-secondary);
+  line-height: 1.2;
+}
+
+/* --- Boss Battle --- */
+.boss-battle-card {
+  grid-column: 1 / -1;
+  background: linear-gradient(135deg, rgba(255, 51, 102, 0.08), rgba(255, 107, 53, 0.05));
+  border: 1px solid rgba(255, 51, 102, 0.2);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  animation: fadeInUp 0.5s ease 0.2s forwards;
+  opacity: 0;
+}
+.boss-battle-card h3 {
+  color: var(--danger-red);
+  margin-bottom: var(--space-2);
+}
+.boss-battle-card .boss-subtitle {
+  color: var(--text-secondary);
+  font-size: var(--fs-sm);
+  margin-bottom: var(--space-5);
+}
+.boss-challenge {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4);
+  background: rgba(255, 51, 102, 0.05);
+  border: 1px solid rgba(255, 51, 102, 0.1);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-3);
+}
+.boss-challenge .boss-icon {
+  font-size: 2rem;
+}
+.boss-challenge .boss-info h4 {
+  font-family: var(--font-body);
+  font-size: var(--fs-base);
+  margin-bottom: var(--space-1);
+}
+.boss-challenge .boss-info p {
+  font-size: var(--fs-sm);
+  color: var(--text-secondary);
+}
+.boss-challenge .boss-reward {
+  margin-left: auto;
+  text-align: center;
+}
+.boss-challenge .boss-reward .xp-amount {
+  font-family: var(--font-mono);
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--xp-gold);
+}
+
+@media (max-width: 1000px) {
+  .character-profile { grid-template-columns: 1fr; text-align: center; justify-items: center; }
+  .character-stats-grid { justify-content: center; }
+  .battle-grid { grid-template-columns: 1fr; }
+}
