@@ -67,3 +67,6 @@ Cyberpunk dark theme with neon green accents, glassmorphism cards, and dynamic a
 ---
 
 *Built with 🔥 for the top 1%*
+
+## Sound Synthesis & Keyboard Shortcuts
+
