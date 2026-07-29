@@ -8,3 +8,6 @@
 
 // Global mute toggle
 
+
+// Audio context auto-resume
+
