@@ -200,3 +200,6 @@ export async function renderBattle(container, app) {
     </div>
   `;
 }
+
+// Level rank progress readout
+
