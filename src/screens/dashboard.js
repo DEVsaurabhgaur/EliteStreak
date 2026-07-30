@@ -341,3 +341,6 @@ function renderPerformanceChart(canvas, dayLogs, habits) {
 
 // Quick action icon scaling
 
+
+// Dashboard sound triggers
+
