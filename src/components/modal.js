@@ -69,3 +69,6 @@ export function showModal({ title, content, onConfirm, confirmText = 'Save', can
 
 // Glass backdrop blur
 
+
+// Focus trap inside modal
+
