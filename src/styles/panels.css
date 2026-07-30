@@ -490,3 +490,6 @@ input[type="range"]:focus {
   .timer-ring { width: 220px; height: 220px; }
   .timer-display .timer-time { font-size: var(--fs-3xl); }
 }
+
+/* Focus timer ring pulse animation */
+.timer-ring.active { animation: pulse 2s ease infinite; }
