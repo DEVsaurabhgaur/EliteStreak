@@ -256,3 +256,6 @@ export async function renderGoals(container, app) {
 
 // Category filter pills
 
+
+// Goals progress audio integration
+
