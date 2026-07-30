@@ -80,3 +80,6 @@ export function renderHeatmap(container, dayLogs, habits) {
 
 // Month label alignment
 
+
+// Add tooltip position offset
+
