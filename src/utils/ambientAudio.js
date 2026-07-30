@@ -10,3 +10,5 @@ export function stopPinkNoise() { console.log('Pink noise stopped'); }
 export function startRainSynth() { console.log('Rain sound started'); }
 
 export function stopRainSynth() { console.log('Rain sound stopped'); }
+
+export function setAmbientVolume(vol) { console.log('Volume:', vol); }
