@@ -56,3 +56,6 @@ export function renderNav(activeScreen, onNavigate) {
 
 // Hover tooltip label positioning
 
+
+// Active sidebar indicator glow
+
