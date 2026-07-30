@@ -23,3 +23,5 @@
 
 // Theme Electric Ice
 
+
+export function resetToDefaultTheme() { applyTheme('cyber-green'); }
