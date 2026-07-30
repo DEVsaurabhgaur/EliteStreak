@@ -243,3 +243,6 @@ function renderHabitStreaksChart(canvas, habitStreaks) {
 
 // Streak days counter in breakdown
 
+
+// Interactive chart re-color on theme change
+
