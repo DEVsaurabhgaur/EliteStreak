@@ -241,3 +241,6 @@ export async function renderCheckIn(container, app) {
 
 // MIT completion bar on debrief
 
+
+// Rating slider tick sounds
+
