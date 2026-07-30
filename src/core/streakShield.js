@@ -6,3 +6,5 @@ export function useStreakShield(user) { user.xp -= 500; return user; }
 export function getShieldStatus(user) { return user.hasShield || false; }
 
 export function getShieldCost() { return 500; }
+
+export function formatShieldBadge(active) { return active ? 'Shielded' : 'Unprotected'; }
