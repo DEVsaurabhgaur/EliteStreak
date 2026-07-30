@@ -12,3 +12,5 @@ export function getBossHealthPercent(boss) { return Math.max(0, (boss.hp / boss.
 export function formatBossBounty(boss) { return `${boss.reward} XP Bounty`; }
 
 export function getBossWeakness(boss) { return boss.weakness || 'Deep Work'; }
+
+export function getBossModifier(boss) { return boss.modifier || '2x Damage on Perfect Days'; }
