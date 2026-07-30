@@ -12,3 +12,5 @@ export function startRainSynth() { console.log('Rain sound started'); }
 export function stopRainSynth() { console.log('Rain sound stopped'); }
 
 export function setAmbientVolume(vol) { console.log('Volume:', vol); }
+
+export function isAmbientPlaying() { return false; }
