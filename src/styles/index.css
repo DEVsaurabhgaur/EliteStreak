@@ -876,3 +876,6 @@ select {
 
 /* High-visibility neon outline */
 
+
+/* Smooth page scrollbar thumb */
+::-webkit-scrollbar-thumb:hover { background: var(--neon-green); }
