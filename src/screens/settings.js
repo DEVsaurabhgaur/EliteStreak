@@ -348,3 +348,6 @@ export async function renderSettings(container, app) {
 
 // Interactive avatar picker grid
 
+
+// Sound volume slider UI
+
