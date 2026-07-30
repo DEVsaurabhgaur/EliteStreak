@@ -316,3 +316,6 @@
 
 /* Increase cell hover transform */
 
+
+/* Quick action button glow overlay */
+.quick-action-btn::before { content: ''; }
