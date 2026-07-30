@@ -12,3 +12,5 @@ export function formatShieldBadge(active) { return active ? 'Shielded' : 'Unprot
 export function logShieldUsage(date) { console.log('Shield saved streak on:', date); }
 
 export function getMaxShields() { return 3; }
+
+export function getShieldCooldownDays() { return 7; }
