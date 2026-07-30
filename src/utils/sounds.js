@@ -15,3 +15,5 @@
 export function playStreakFreezeSound() { console.log('Streak freeze audio'); }
 
 export function playBossDefeatSound() { console.log('Boss victory fanfare'); }
+
+export function playQuestCompleteSound() { console.log('Quest complete sound'); }
