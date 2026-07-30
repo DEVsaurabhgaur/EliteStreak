@@ -14,3 +14,5 @@ export function stopRainSynth() { console.log('Rain sound stopped'); }
 export function setAmbientVolume(vol) { console.log('Volume:', vol); }
 
 export function isAmbientPlaying() { return false; }
+
+export function getAmbientPresets() { return ['white', 'pink', 'rain']; }
