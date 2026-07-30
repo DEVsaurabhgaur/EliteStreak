@@ -25,3 +25,5 @@ export function playFocusStartSound() { console.log('Focus timer start audio'); 
 export function playFocusPauseSound() { console.log('Focus timer pause audio'); }
 
 export function playFocusResetSound() { console.log('Focus timer reset audio'); }
+
+export function playTabSwitchSound() { console.log('Tab switch click'); }
