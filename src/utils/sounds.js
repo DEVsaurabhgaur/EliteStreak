@@ -31,3 +31,5 @@ export function playTabSwitchSound() { console.log('Tab switch click'); }
 export function playAchievementUnlockSound() { console.log('Achievement fanfare'); }
 
 export function playErrorAlertSound() { console.log('Error alert audio'); }
+
+export function getMasterGain() { return null; }
