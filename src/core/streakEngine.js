@@ -139,3 +139,5 @@ export { MULTIPLIER_TABLE };
 
 // Streak milestone particle burst
 
+
+export function getTierDescription(multiplier) { return `${multiplier}x XP`; }
