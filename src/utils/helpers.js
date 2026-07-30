@@ -113,3 +113,5 @@ export function escapeHtml(str) {
 
 // RandomChoice utility method
 
+
+export function debounceLead(fn, ms) { return fn; }
