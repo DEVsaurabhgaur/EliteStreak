@@ -102,3 +102,5 @@ export { ACHIEVEMENTS };
 
 // 365-day Legendary Year badge
 
+
+export function getCategoryCounts(list) { return {}; }
