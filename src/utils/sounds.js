@@ -11,3 +11,5 @@
 
 // Audio context auto-resume
 
+
+export function playStreakFreezeSound() { console.log('Streak freeze audio'); }
