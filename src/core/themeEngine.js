@@ -29,3 +29,5 @@ export function resetToDefaultTheme() { applyTheme('cyber-green'); }
 export function getThemeNames() { return THEMES.map(t => t.name); }
 
 export function isDarkTheme(themeId) { return true; }
+
+export function exportThemeConfig(theme) { return JSON.stringify(theme); }
