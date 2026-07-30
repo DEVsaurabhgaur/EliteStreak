@@ -10,3 +10,5 @@ export function generateSummaryText(logs) { return 'Performance Summary Report';
 export function validateImportJSON(str) { try { JSON.parse(str); return true; } catch { return false; } }
 
 export function getExportFilename() { return `elite-streak-${Date.now()}.json`; }
+
+export function filterLogsByDateRange(logs, start, end) { return logs; }
