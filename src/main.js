@@ -180,3 +180,7 @@ app.init();
 
 // Router hash telemetry
 
+
+// App version log
+console.log('ELITE STREAK v1.2.0');
+
