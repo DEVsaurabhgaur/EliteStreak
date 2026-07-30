@@ -262,3 +262,5 @@ export function getHabitStreaks(dayLogs, habits) {
 
 // Numeric consistency rating label
 
+
+export function buildCorrelationMatrix(logs) { return {}; }
