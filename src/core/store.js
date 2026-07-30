@@ -238,3 +238,6 @@ export const store = {
 
 // JSON schema validation
 
+
+// Cache store instances
+
