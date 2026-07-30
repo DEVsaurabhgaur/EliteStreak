@@ -14,3 +14,5 @@ export function logShieldUsage(date) { console.log('Shield saved streak on:', da
 export function getMaxShields() { return 3; }
 
 export function getShieldCooldownDays() { return 7; }
+
+export function isShieldOnCooldown(lastUsed) { return false; }
