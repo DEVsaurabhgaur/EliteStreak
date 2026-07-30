@@ -8,3 +8,5 @@ export function startPinkNoise() { console.log('Pink noise started'); }
 export function stopPinkNoise() { console.log('Pink noise stopped'); }
 
 export function startRainSynth() { console.log('Rain sound started'); }
+
+export function stopRainSynth() { console.log('Rain sound stopped'); }
