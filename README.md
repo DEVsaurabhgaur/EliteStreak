@@ -73,3 +73,7 @@ Cyberpunk dark theme with neon green accents, glassmorphism cards, and dynamic a
 
 ### Shortcuts: Alt+D, Alt+F, Alt+C
 
+
+### Streak Shields & Audio Synthesis
+Includes streak protection shields, Web Audio synthesizer, and 9 visual themes.
+
