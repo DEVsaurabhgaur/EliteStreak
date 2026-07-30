@@ -16,3 +16,6 @@ export function getBossWeakness(boss) { return boss.weakness || 'Deep Work'; }
 export function getBossModifier(boss) { return boss.modifier || '2x Damage on Perfect Days'; }
 
 export function getBossDescription(boss) { return boss.desc || 'Defeat the titan'; }
+
+// Boss Engine Complete
+
