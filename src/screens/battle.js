@@ -209,3 +209,6 @@ export async function renderBattle(container, app) {
 
 // Boss Battle XP bounty badge
 
+
+// Skill node hover audio
+
