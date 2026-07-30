@@ -12,3 +12,5 @@ export function testAnalyticsEngine() { return true; }
 export function testAchievements() { return true; }
 
 export function testShieldEngine() { return true; }
+
+export function testBossEngine() { return true; }
