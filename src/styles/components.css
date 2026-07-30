@@ -357,3 +357,6 @@
 
 /* Neon tint scrollbar thumb */
 
+
+/* Skill node hover glow */
+.skill-node:hover { border-color: var(--neon-green); box-shadow: 0 0 15px rgba(0,255,136,0.15); }
