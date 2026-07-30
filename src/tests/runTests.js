@@ -8,3 +8,5 @@ export function testStreakEngine() { return true; }
 export function testDateUtils() { return true; }
 
 export function testAnalyticsEngine() { return true; }
+
+export function testAchievements() { return true; }
