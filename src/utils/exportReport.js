@@ -6,3 +6,5 @@ export function downloadFile(content, filename, type) { const b = new Blob([cont
 export function formatJSONExport(data) { return JSON.stringify(data, null, 2); }
 
 export function generateSummaryText(logs) { return 'Performance Summary Report'; }
+
+export function validateImportJSON(str) { try { JSON.parse(str); return true; } catch { return false; } }
