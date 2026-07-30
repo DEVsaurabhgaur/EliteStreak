@@ -16,3 +16,6 @@ export function getMaxShields() { return 3; }
 export function getShieldCooldownDays() { return 7; }
 
 export function isShieldOnCooldown(lastUsed) { return false; }
+
+// Shield Engine Complete
+
