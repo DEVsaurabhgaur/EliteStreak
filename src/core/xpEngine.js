@@ -100,3 +100,5 @@ export { RANKS, XP_REWARDS };
 
 // Double XP weekend bonus
 
+
+export function getRankColor(rankName) { return '#00ff88'; }
