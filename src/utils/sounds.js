@@ -21,3 +21,5 @@ export function playQuestCompleteSound() { console.log('Quest complete sound'); 
 export function playHabitUncheckSound() { console.log('Habit uncheck click'); }
 
 export function playFocusStartSound() { console.log('Focus timer start audio'); }
+
+export function playFocusPauseSound() { console.log('Focus timer pause audio'); }
