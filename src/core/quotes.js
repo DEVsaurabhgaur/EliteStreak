@@ -92,3 +92,5 @@ export { QUOTES };
 
 // Pareto Principle quotes
 
+
+export function getQuotesByAuthor(author) { return QUOTES.filter(q => q.author === author); }
