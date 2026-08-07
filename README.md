@@ -1,79 +1,154 @@
-# 🔥 ELITE STREAK — Personal Performance OS
+<div align="center">
 
-> A gamified, psychology-driven daily performance tracker designed to rewire your brain for the top 1%.
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:001200,50:003300,100:00ff41&height=200&text=ELITE%20STREAK&fontColor=00ff41&fontSize=55&fontAlignY=38&desc=%E2%96%88%E2%96%93%E2%96%92%E2%96%91%20PERSONAL%20PERFORMANCE%20OPERATING%20SYSTEM%20%E2%96%91%E2%96%92%E2%96%93%E2%96%88&descAlignY=62&descSize=13&descColor=39ff14&animation=twinkling&stroke=00ff41&strokeWidth=1" width="100%"/>
 
-![Dashboard Screenshot](https://img.shields.io/badge/Status-Active-00ff88?style=for-the-badge&labelColor=0a0a0f)
-![Built With](https://img.shields.io/badge/Built_With-Vanilla_JS-ffd700?style=for-the-badge&labelColor=0a0a0f)
-![License](https://img.shields.io/badge/License-Personal-7c3aed?style=for-the-badge&labelColor=0a0a0f)
+<br/>
 
-## 🎯 What is ELITE STREAK?
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=500&color=00FF41&background=00000000&center=true&vCenter=true&width=700&height=30&lines=%E2%96%B6+REWIRE+YOUR+BRAIN+FOR+THE+TOP+1%25;%E2%96%B6+GAMIFIED+%C2%B7+PSYCHOLOGY-DRIVEN+%C2%B7+SCIENCE-BACKED;%E2%96%B6+SHIP+DAILY+%C2%B7+STREAK+ALWAYS+%C2%B7+NEVER+ZERO" alt="typing"/>
 
-ELITE STREAK is not just another habit tracker — it's a **Personal Performance Operating System** built on scientifically-proven principles from the world's best books:
+<br/>
 
-- 📘 **Atomic Habits** — 1% improvement tracking, habit stacking
-- 🧠 **Deep Work** — Focus timer, deep work hours tracking  
-- 💀 **Can't Hurt Me** — Accountability mirror, resistance scoring
-- 🔥 **Grit** — Streak persistence, deliberate practice
-- 🌊 **Flow** — Flow state tracking, optimal challenge calibration
-- 📐 **The 7 Habits** — Goal pyramid (mission → quarterly → weekly → daily)
-- ⚔️ **The War of Art** — Resistance meter, pro vs amateur scoring
-- 🧬 **Mindset** — Growth mindset tracking, effort-over-outcome
+![](https://img.shields.io/badge/▓▓▓_STATUS-ACTIVE-00ff41?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_BUILT_WITH-Vanilla_JS-39ff14?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_ENGINE-Vite-00ff88?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_LICENSE-Personal-00e639?style=flat-square&labelColor=001a00)
 
-## 🖥️ Screens
-
-| Screen | Description |
-|--------|-------------|
-| 🏠 **Command Center** | GitHub-style heatmap, streak counter, XP bar, habit checklist, performance chart |
-| 🎯 **Goals & Missions** | Life mission editor, hierarchical goals with progress tracking |
-| ⚔️ **Battle Arena** | RPG character, skill tree, 30+ achievements, boss battles |
-| 📊 **Analytics** | AI insights, consistency scoring, weekly charts, habit breakdown |
-| ⏱️ **Focus Arena** | Deep work timer with XP rewards and session history |
-| 📝 **Daily Check-In** | MITs, accountability mirror, mood/energy tracking, reflection journal |
-| ⚙️ **Settings** | Profile management, habit CRUD, data export/import |
-
-## 🎮 Gamification
-
-- **XP System** with streak multipliers (1× → 10×)
-- **6 Ranks**: 🟤 Recruit → ⚪ Warrior → 🟡 Champion → 💎 Elite → 💠 Legend → 🔥 Unstoppable
-- **Skill Tree**: 10 abilities unlocked at streak milestones
-- **Boss Battles**: Weekly challenges inspired by Goggins' 40% rule
-- **Particle Effects**: Celebrations for milestones and perfect days
-
-## 🛠️ Tech Stack
-
-- **Vite** — Lightning-fast dev server
-- **Vanilla JS** — No framework bloat
-- **Chart.js** — Data visualization
-- **IndexedDB** — Local data persistence
-- **CSS Animations + Canvas** — Particle effects and micro-interactions
-
-## 🚀 Getting Started
-
-```bash
-# Clone the repo
-git clone https://github.com/DEVsaurabhgaur/EliteStreak.git
-
-# Install dependencies
-npm install
-
-# Start the dev server
-npm run dev
-```
-
-## 📸 Design
-
-Cyberpunk dark theme with neon green accents, glassmorphism cards, and dynamic animations. Built to feel like a premium gaming interface.
+</div>
 
 ---
 
-*Built with 🔥 for the top 1%*
+### `> cat /sys/mission/purpose.log`
 
-## Sound Synthesis & Keyboard Shortcuts
+> **ELITE STREAK** is not just another habit tracker — it's a **Personal Performance Operating System** built on scientifically-proven principles from the world's most transformative books.
 
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  ░▒▓ KNOWLEDGE FRAMEWORK — SOURCE PROTOCOLS ▓▒░                 │
+├──────────────────────────────────────────────────────────────────┤
+│  📘 Atomic Habits      │ 1% improvement tracking, habit stacking│
+│  🧠 Deep Work          │ Focus timer, deep work hours tracking   │
+│  💀 Can't Hurt Me      │ Accountability mirror, resistance score │
+│  🔥 Grit               │ Streak persistence, deliberate practice│
+│  🌊 Flow               │ Flow state tracking, optimal challenge  │
+│  📐 The 7 Habits       │ Goal pyramid (mission → daily)          │
+│  ⚔️ The War of Art     │ Resistance meter, pro vs amateur score  │
+│  🧬 Mindset            │ Growth mindset, effort-over-outcome     │
+└──────────────────────────────────────────────────────────────────┘
+```
 
-### Shortcuts: Alt+D, Alt+F, Alt+C
+---
 
+### `> ls /sys/screens/ --detailed`
 
-### Streak Shields & Audio Synthesis
-Includes streak protection shields, Web Audio synthesizer, and 9 visual themes.
+```
+╔══════════════════════════════════════════════════════════════════════════╗
+║  SCREEN                │  DESCRIPTION                                  ║
+╠══════════════════════════════════════════════════════════════════════════╣
+║  🏠 Command Center     │  Heatmap, streak counter, XP bar, habits     ║
+║  🎯 Goals & Missions   │  Life mission editor, hierarchical goals     ║
+║  ⚔️ Battle Arena       │  RPG character, skill tree, 30+ achievements ║
+║  📊 Analytics          │  AI insights, consistency scoring, charts     ║
+║  ⏱️ Focus Arena        │  Deep work timer with XP rewards             ║
+║  📝 Daily Check-In     │  MITs, accountability mirror, reflection     ║
+║  ⚙️ Settings           │  Profile, habit CRUD, data export/import     ║
+╚══════════════════════════════════════════════════════════════════════════╝
+```
 
+---
+
+### `> cat /sys/gamification/engine.yml`
+
+```yaml
+# ═══════════════════════════════════════════════════
+#  GAMIFICATION ENGINE — RPG PERFORMANCE SYSTEM
+# ═══════════════════════════════════════════════════
+
+xp_system:
+  multipliers: "1× → 10× (streak-based)"
+  formula: "base_xp × streak_multiplier × difficulty_modifier"
+
+ranks:
+  - tier: "🟤 Recruit"        level: 0
+  - tier: "⚪ Warrior"        level: 1
+  - tier: "🟡 Champion"       level: 2
+  - tier: "💎 Elite"          level: 3
+  - tier: "💠 Legend"         level: 4
+  - tier: "🔥 Unstoppable"   level: 5
+
+features:
+  skill_tree:       "10 abilities unlocked at streak milestones"
+  boss_battles:     "Weekly challenges (Goggins' 40% rule)"
+  achievements:     "30+ unlock conditions"
+  particle_effects: "Canvas celebrations for milestones"
+  sound_engine:     "Web Audio synthesizer for feedback"
+  visual_themes:    "9 switchable UI themes"
+  streak_shields:   "Protection against streak loss"
+  keyboard_nav:     "Alt+D, Alt+F, Alt+C shortcuts"
+```
+
+---
+
+### `> neofetch --tech-stack`
+
+```
+  ░▒▓█ TECH STACK █▓▒░
+
+  ⚡ Runtime       :: Vite — Lightning-fast HMR dev server
+  📦 Framework     :: Vanilla JS — Zero framework overhead
+  📊 Charts        :: Chart.js — Rich data visualization
+  💾 Persistence   :: IndexedDB — Local-first data storage
+  🎨 Animation     :: CSS3 + Canvas — Particles & micro-interactions
+  🔊 Audio         :: Web Audio API — Sound synthesis engine
+```
+
+---
+
+### `> ./install.sh`
+
+```bash
+# ┌──────────────────────────────────────┐
+# │  QUICK START — DEPLOY LOCALLY        │
+# └──────────────────────────────────────┘
+
+# Clone the system
+git clone https://github.com/DEVsaurabhgaur/EliteStreak.git
+
+# Install dependencies
+cd EliteStreak && npm install
+
+# Boot the dev server
+npm run dev
+
+# >> System online at http://localhost:5173
+```
+
+---
+
+### `> cat /sys/design/aesthetics.log`
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│  DESIGN PHILOSOPHY                                          │
+├─────────────────────────────────────────────────────────────┤
+│  Theme       : Cyberpunk dark + neon green accents          │
+│  Surface     : Glassmorphism cards with blur effects        │
+│  Motion      : Dynamic animations & particle systems        │
+│  Feel        : Premium gaming interface aesthetic           │
+│  Typography  : Monospace terminal + clean sans-serif        │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║  ░▒▓█ BUILT WITH 🔥 FOR THE TOP 1% █▓▒░                 ║
+║  ░▒▓  Ship daily. Streak always. Never zero.  ▓▒░       ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:001200,50:003300,100:00ff41&height=80&section=footer&fontSize=0" width="100%"/>
+
+</div>
