@@ -1,24 +1,70 @@
 {
   "name": "elite-streak",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Personal Performance OS — Gamified streak & daily progress tracker",
   "type": "module",
+  "main": "electron/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron:dev": "npm run build && electron .",
+    "electron:build": "npm run build && electron-builder --win",
+    "cap:sync": "npm run build && npx cap sync"
   },
   "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8",
+    "terser": "^5.49.2",
     "vite": "^6.3.5"
   },
   "dependencies": {
+    "@capacitor/android": "^6.2.1",
+    "@capacitor/cli": "^6.2.0",
+    "@capacitor/core": "^6.2.0",
     "chart.js": "^4.4.8"
+  },
+  "keywords": [
+    "productivity",
+    "streak",
+    "cyberpunk",
+    "performance"
+  ],
+  "build": {
+    "appId": "com.elitestreak.app",
+    "productName": "Elite Streak",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "icon": "public/icon.png"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "installerIcon": "public/icon.png",
+      "uninstallerIcon": "public/icon.png",
+      "installerHeaderIcon": "public/icon.png"
+    }
   }
 }
-
-  "keywords": ["productivity", "streak", "cyberpunk"],
-
-
-  "version": "1.2.0",
-

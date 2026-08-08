@@ -4,16 +4,30 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=500&color=00FF41&background=00000000&center=true&vCenter=true&width=700&height=30&lines=%E2%96%B6+REWIRE+YOUR+BRAIN+FOR+THE+TOP+1%25;%E2%96%B6+GAMIFIED+%C2%B7+PSYCHOLOGY-DRIVEN+%C2%B7+SCIENCE-BACKED;%E2%96%B6+SHIP+DAILY+%C2%B7+STREAK+ALWAYS+%C2%B7+NEVER+ZERO" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=14&duration=2000&pause=500&color=00FF41&background=00000000&center=true&vCenter=true&width=700&height=30&lines=%E2%96%B6+REWIRE+YOUR+BRAIN+FOR+THE+TOP+1%25;%E2%96%B6+GAMIFIED+%C2%B7+PSYCHOLOGY-DRIVEN+%C2%B7+SCIENCE-BACKED;%E2%96%B6+WINDOWS+APP+%C2%B7+MOBILE+PWA+%C2%B7+ANDROID+NATIVE" alt="typing"/>
 
 <br/>
 
 ![](https://img.shields.io/badge/▓▓▓_STATUS-ACTIVE-00ff41?style=flat-square&labelColor=001a00)
-![](https://img.shields.io/badge/▓▓▓_BUILT_WITH-Vanilla_JS-39ff14?style=flat-square&labelColor=001a00)
-![](https://img.shields.io/badge/▓▓▓_ENGINE-Vite-00ff88?style=flat-square&labelColor=001a00)
-![](https://img.shields.io/badge/▓▓▓_LICENSE-Personal-00e639?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_WINDOWS-ELECTRON_DESKTOP-39ff14?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_MOBILE-PWA_+_CAPACITOR-00ff88?style=flat-square&labelColor=001a00)
+![](https://img.shields.io/badge/▓▓▓_ENGINE-Vite_+_Vanilla_JS-00e639?style=flat-square&labelColor=001a00)
 
 </div>
+
+---
+
+### `> cat /sys/downloads/manifest.log`
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  ░▒▓ DOWNLOADABLE APPS & PLATFORMS ▓▒░                                      │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  🖥️  Windows Desktop (.exe / zip) │ Portable Electron App with tray support   │
+│  📱  Mobile App (PWA)             │ Add to Home Screen on iOS / Android       │
+│  🤖  Android Native (Capacitor)   │ Capacitor source project in /android      │
+└─────────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -93,12 +107,12 @@ features:
 ```
   ░▒▓█ TECH STACK █▓▒░
 
-  ⚡ Runtime       :: Vite — Lightning-fast HMR dev server
-  📦 Framework     :: Vanilla JS — Zero framework overhead
-  📊 Charts        :: Chart.js — Rich data visualization
-  💾 Persistence   :: IndexedDB — Local-first data storage
-  🎨 Animation     :: CSS3 + Canvas — Particles & micro-interactions
-  🔊 Audio         :: Web Audio API — Sound synthesis engine
+  🖥️ Desktop      :: Electron — Windows Standalone App with System Tray
+  📱 Mobile       :: PWA + Capacitor — Installable on iOS & Android
+  ⚡ Runtime      :: Vite — Lightning-fast HMR dev server
+  📦 Framework    :: Vanilla JS — Zero framework overhead
+  📊 Charts       :: Chart.js — Rich data visualization
+  💾 Persistence  :: IndexedDB — Local-first data storage
 ```
 
 ---
@@ -107,19 +121,21 @@ features:
 
 ```bash
 # ┌──────────────────────────────────────┐
-# │  QUICK START — DEPLOY LOCALLY        │
+# │  RUN & BUILD INSTRUCTIONS            │
 # └──────────────────────────────────────┘
 
-# Clone the system
+# 1. Clone & Install
 git clone https://github.com/DEVsaurabhgaur/EliteStreak.git
-
-# Install dependencies
 cd EliteStreak && npm install
 
-# Boot the dev server
+# 2. Run Web Dev Server
 npm run dev
 
-# >> System online at http://localhost:5173
+# 3. Run Desktop App (Electron)
+npm run electron:dev
+
+# 4. Sync Mobile Capacitor Assets
+npm run cap:sync
 ```
 
 ---
